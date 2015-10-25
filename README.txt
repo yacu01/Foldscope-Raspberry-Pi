@@ -1,4 +1,4 @@
-All the scripts require OpenCV to be installed on the Raspberry Pi (RPi). While OpenCV is a large library that takes a while to install, the capabilities of it outweighs this hassle. It may seem a little overkill just for taking pictures and videos on the RPi, but it enables many other functions like the tracking of molecular organisms.
+The first two scripts require OpenCV to be installed on the Raspberry Pi (RPi). While OpenCV is a large library that takes a while to install, the capabilities of it outweighs this hassle. It may seem a little overkill just for taking pictures and videos on the RPi, but it enables many other functions like the tracking of molecular organisms.
 
 Here are the functions of the scripts in this repo:
 
