@@ -5,7 +5,7 @@ Here are the functions of the scripts in this repo:
 recorder.py: 
   - python script to record videos and take pictures with the Raspberry Foldscope
   - can customize the filetype and filename for the pictures/videos
-  - can save multiple pictures/videos with the same basic filename, after one save it starts to number the file e.g.     video_2.avi, video_3.avi etc.
+  - can save multiple pictures/videos with the same basic filename e.g. video_1.avi, video_2.avi etc.
 
 video_player.py: 
   - python script to play back a previously recorded video
