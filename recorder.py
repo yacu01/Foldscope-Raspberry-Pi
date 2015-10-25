@@ -86,11 +86,7 @@ for frame in camera.capture_continuous(rawCapture, format='bgr', use_video_port=
         if key == 32: #spacebar
             if recording == True:
                 # end the recording and save the video
-                print 'saving'
-                if numVids == 0:
-                    addon = '' #no addon needed
-                else:
-                    addon = '_'+str(numVids+1) #addon the number of videos already made so it doesn't override a video
+                addon = '_'+str(numVids+1) #addon the number of videos already made so it doesn't override a video
                 height, width, layers = pics[0].shape
                 
                 #construct a video writer
@@ -111,9 +107,6 @@ for frame in camera.capture_continuous(rawCapture, format='bgr', use_video_port=
                 recording = True          
     elif picture == True: #picture mode
         if key == 32: #spacebar
-            if numPics == 0:
-                addon = ''
-            else:
-                addon = '_'+str(numPics+1)
+            addon = '_'+str(numPics+1)
             numPics += 1
             cv2.imwrite(filename+addon+pictureFileType, image)
