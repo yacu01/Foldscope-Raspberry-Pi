@@ -1,6 +1,17 @@
 import time
 import picamera
 
+### camera settings ###
+#camera.shutter_speed = 
+#camera.sharpness = 
+#camera.saturation = 
+#camera.iso = 
+#camera.image_effect = 
+#camera.contrast = 
+#camera.brightness = 
+
+
+
 waitTime = 300 #time in seconds
 
 with picamera.PiCamera() as camera:
