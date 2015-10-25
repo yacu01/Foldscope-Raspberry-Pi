@@ -14,3 +14,4 @@ video_player.py:
   
 timelapse.py:
   - take pictures for set intervals of time with indexed names
+  - DOES NOT require OpenCV
